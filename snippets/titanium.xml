@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="tos"
+          fetch="https://github.com/Titanium-OS"
+          revision="ten" />
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com" />
+
+  <!-- CodeAurora additions -->
+  <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_sm8150_audio" remote="tos" />
+  <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_sm8150_display" remote="tos" />
+  <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_sm8150_media" remote="tos" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="tos" />
+  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="tos" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="tos" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/av" name="frameworks_av" remote="tos" />
+  <project path="frameworks/base" name="frameworks_base" remote="tos" />
+  <project path="frameworks/native" name="frameworks_native" remote="tos" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="tos" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="tos" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="tos" />
+
+  <!-- General repos -->
+  <project path="art" name="art" remote="tos" />
+  <project path="bionic" name="bionic" remote="tos" />
+  <project path="build/make" name="build" remote="tos">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="tos" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="build/blueprint" name="build_blueprint" remote="tos" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="tos" />
+  <project path="development" name="development" remote="tos" />
+  <project path="manifest" name="manifest" remote="tos" />
+
+  <!-- TitaniumOS vendor -->
+  <project path="vendor/titanium" name="vendor_titanium" remote="tos" />
+
+  <!-- Custom additions -->
+  <project path="prebuilts/tools-titanium" name="prebuilts_tools-titanium" remote="tos" clone-depth="1" />
+
+  <!-- Hardware repos -->
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="tos" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="tos" />
+  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="tos" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="tos" />
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="tos" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="tos" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="tos" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="tos" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="tos" />
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="tos" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="tos" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tos" />
+  <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="tos" />
+  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="tos" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="tos" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="tos" />
+  <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="tos" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="tos" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="tos" />
+
+  <!-- External repos -->
+  <project path="external/tinycompress" name="external_tinycompress" remote="tos" />
+
+  <!-- System Repos -->
+  <project path="system/bt" name="system_bt" remote="tos" />
+  <project path="system/core" name="system_core" remote="tos" />
+  <project path="system/netd" name="system_netd" remote="tos" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="tos" />
+  <project path="system/update_engine" name="system_update_engine" remote="tos" />
+  <project path="system/vold" name="system_vold" remote="tos" />
+
+</manifest>
