@@ -51,15 +51,6 @@
   <!-- Custom additions -->
   <project path="prebuilts/tools-titanium" name="prebuilts_tools-titanium" remote="tos" clone-depth="1" />
 
-  <!-- Hardware repos -->
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="tos" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="tos" />
-  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="tos" />
-  <project path="hardware/interfaces" name="hardware_interfaces" remote="tos" />
-  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="tos" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="tos" />
-  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="tos" />
-
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="tos" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="tos" />
