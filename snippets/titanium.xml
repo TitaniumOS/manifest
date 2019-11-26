@@ -8,14 +8,6 @@
   <remote name="gitlab"
           fetch="https://gitlab.com" />
 
-  <!-- CodeAurora additions -->
-  <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_sm8150_audio" remote="tos" />
-  <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_sm8150_display" remote="tos" />
-  <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_sm8150_media" remote="tos" />
-  <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="tos" />
-  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="tos" />
-  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="tos" />
-
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="tos" />
   <project path="frameworks/base" name="frameworks_base" remote="tos" />
