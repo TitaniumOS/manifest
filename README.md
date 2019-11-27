@@ -28,7 +28,7 @@ GIT config (nickname, e-mail):
 To initialize your local repository use:
 ---------------------------------------
 
-    repo init -u https://github.com/Titanium-OS.git -b ten
+    repo init -u git://github.com/Titanium-OS/manifest -b ten
     
 
 Then to sync up:
