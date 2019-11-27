@@ -50,7 +50,6 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="tos" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tos" />
   <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="tos" />
-  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="tos" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="tos" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="tos" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="tos" />
