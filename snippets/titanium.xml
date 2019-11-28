@@ -40,8 +40,14 @@
   <!-- TitaniumOS vendor -->
   <project path="vendor/titanium" name="vendor_titanium" remote="tos" />
 
+   <!-- Hardware -->
+  <project path="hardware/titanium/interfaces" name="hardware_titanium_interfaces" remote="tos" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="tos" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="tos" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="tos" />
+
   <!-- Custom additions -->
-  <project path="prebuilts/tools-titanium" name="prebuilts_tools-titanium" remote="tos" clone-depth="1" />
+  <project path="prebuilts/tools-titanium" name="prebuilts_tools-titanium" remote="tos"/>
 
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="tos" />
