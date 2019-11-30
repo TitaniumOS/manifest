@@ -61,9 +61,10 @@
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="tos" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="tos" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="tos" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="tos" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="tos" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tos" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="tos" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="tos" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="tos" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="tos" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="tos" />
