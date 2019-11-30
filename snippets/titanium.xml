@@ -56,6 +56,7 @@
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="tos" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="tos" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="tos" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="tos" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="tos" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tos" />
