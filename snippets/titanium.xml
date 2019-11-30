@@ -45,6 +45,7 @@
   <project path="hardware/interfaces" name="hardware_interfaces" remote="tos" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="tos" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="tos" />
+  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="tos" />
 
   <!-- Custom additions -->
   <project path="prebuilts/tools-titanium" name="prebuilts_tools-titanium" remote="tos"/>
