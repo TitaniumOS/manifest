@@ -55,7 +55,6 @@
 
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="tos" />
-  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="tos" />
   <project path="packages/apps/CertInstaller" name="packages_apps_CertInstaller" remote="tos" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="tos" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="tos" />
@@ -66,6 +65,7 @@
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="tos" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="tos" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tos" />
+  <project path="packages/apps/Snap" name="packages_apps_Snap" remote="tos" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="tos" />
   <project path="packages/apps/TiElements" name="packages_apps_TiElements" remote="tos" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tos" />
