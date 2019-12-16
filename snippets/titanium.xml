@@ -74,6 +74,7 @@
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="tos" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="tos" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="tos" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="tos" />
 
   <!-- External repos -->
   <project path="external/tinycompress" name="external_tinycompress" remote="tos" />
