@@ -79,6 +79,7 @@
 
   <!-- External repos -->
   <project path="external/tinycompress" name="external_tinycompress" remote="tos" />
+  <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="tos" />
 
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="tos" />
