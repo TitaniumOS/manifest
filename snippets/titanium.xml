@@ -5,6 +5,10 @@
           fetch="https://github.com/Titanium-OS"
           revision="ten" />
 
+  <remote name="tos-devices"
+          fetch="https://github.com/Titanium-OS-Devices"
+          revision="ten" />
+
   <remote name="gitlab"
           fetch="https://gitlab.com" />
 
