@@ -2,11 +2,11 @@
 <manifest>
 
   <remote name="tos"
-          fetch="https://github.com/Titanium-OS"
+          fetch="https://github.com/TitaniumOS"
           revision="ten" />
 
   <remote name="tos-devices"
-          fetch="https://github.com/Titanium-OS-Devices"
+          fetch="https://github.com/TitaniumOS-Devices"
           revision="ten" />
 
   <remote name="gitlab"

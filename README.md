@@ -28,21 +28,20 @@ GIT config (nickname, e-mail):
 To initialize your local repository use:
 ---------------------------------------
 
-    repo init -u git://github.com/Titanium-OS/manifest -b ten
+    repo init -u git://github.com/TitaniumOS/manifest -b ten
     
 
 Then to sync up:
 ----------------
 
-    repo sync -j 16
+    repo sync -j8 --force-sync -c --no-clone-bundle --no-tags --optimized-fetch --prune
 
 Build command is:
 ----------------
-    export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4000m"
     . build/envsetup.sh
-    lunch titanium_raphael-userdebug or lunch titanium_raphael-userdebug
-    make -j 7 otapackage
+    lunch titanium_($device)-userdebug
+    make titanium
 
 ## Report build issues
-- You can reach us via [Telegram](#)
+- You can reach us via [Telegram](https://t.me/TitaniumOS_Chat)
 
