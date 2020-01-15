@@ -1,3 +1,5 @@
+![TitaniumOS](https://github.com/Titanium-OS/manifest/raw/ten/TitaniumOS-banner.png)
+
 # TitaniumOS #
 
 Credits:
