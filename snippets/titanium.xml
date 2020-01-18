@@ -53,6 +53,7 @@
   <project path="hardware/libhardware" name="hardware_libhardware" remote="tos" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="tos" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="tos" />
+  <project path="hardware/lineage/livedisplay" name="hardware_lineage_livedisplay" remote="tos" />
 
   <!-- Custom additions -->
   <project path="prebuilts/tools-titanium" name="prebuilts_tools-titanium" remote="tos"/>
@@ -80,6 +81,7 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="tos" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="tos" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="tos" />
+  <project path="packages/apps/GoogleCamera" name="packages_apps_GoogleCamera" remote="tos" />
 
   <!-- External repos -->
   <project path="external/tinycompress" name="external_tinycompress" remote="tos" />
