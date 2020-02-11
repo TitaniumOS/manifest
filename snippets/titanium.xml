@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="github"
-          fetch="https://github.com/" />
+          fetch=".." />
 
   <remote name="tos"
           fetch="https://github.com/TitaniumOS"
@@ -12,8 +12,9 @@
           fetch="https://github.com/TitaniumOS-Devices"
           revision="ten" />
 
-  <remote name="gitlab"
-          fetch="https://gitlab.com" />
+  <remote name="titanium-gapps"
+          fetch="https://gitlab.com/TitaniumOS-Gapps"
+          revision="ten" />
 
   <!-- CodeAurora additions -->
   <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_sm8150_audio" remote="tos" />
@@ -54,7 +55,8 @@
 
   <!-- TitaniumOS vendor -->
   <project path="vendor/titanium" name="vendor_titanium" remote="tos" />
-
+  <project path="vendor/gapps" name="vendor_gapps" remote="titanium-gapps" clone-depth="1" />
+  
    <!-- Hardware -->
   <project path="hardware/titanium/interfaces" name="hardware_titanium_interfaces" remote="tos" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="tos" />
