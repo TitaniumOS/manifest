@@ -16,6 +16,11 @@
           fetch="https://gitlab.com/TitaniumOS-Gapps"
           revision="ten" />
 
+  <!-- CodeAurora additions -->
+  <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_sm8150_audio" remote="tos" />
+  <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_sm8150_display" remote="tos" />
+  <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_sm8150_media" remote="tos" />
+
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="tos" />
   <project path="frameworks/base" name="frameworks_base" remote="tos" />
