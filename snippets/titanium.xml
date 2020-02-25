@@ -106,4 +106,7 @@
   <project path="system/vold" name="system_vold" remote="tos" />
   <project path="system/sepolicy" name="system_sepolicy" remote="tos" />
 
+  <!-- Clang -->
+  <project path="prebuilts/clang/host/linux-x86/clang-10.0.4" name="prebuilts_clang_host_linux-x86_clang-10.0.4" remote="tos" />
+
 </manifest>
