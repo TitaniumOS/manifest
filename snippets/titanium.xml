@@ -53,6 +53,7 @@
   <!-- Device -->
   <project path="device/titanium/sepolicy" name="device_titanium_sepolicy" remote="tos" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="tos" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="tos" />
 
   <!-- TitaniumOS vendor -->
   <project path="vendor/titanium" name="vendor_titanium" remote="tos" />
