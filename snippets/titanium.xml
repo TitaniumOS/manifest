@@ -95,7 +95,8 @@
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="tos" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="tos" />
   <project path="packages/apps/GoogleCamera" name="packages_apps_GoogleCamera" remote="tos" />
-
+  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="tos" />
+  
   <!-- External repos -->
   <project path="external/tinycompress" name="external_tinycompress" remote="tos" />
   <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="tos" />
