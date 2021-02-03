@@ -40,6 +40,7 @@
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="tos" />
   <project path="frameworks/base" name="frameworks_base" remote="tos" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote ="tos" />
   <project path="frameworks/native" name="frameworks_native" remote="tos" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="tos" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="tos" />
@@ -76,6 +77,7 @@
   <!-- Packages repos -->
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="tos" />
   <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="tos" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="tos" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="tos" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="tos" />
   <project path="packages/apps/Plugins" name="packages_apps_Plugins" remote="tos" />
