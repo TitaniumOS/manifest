@@ -35,6 +35,7 @@
   <project path="external/sqlite" name="external_sqlite" remote="tos" />
   <project path="external/tinycompress" name="external_tinycompress" remote="tos" />
   <project path="external/zlib" name="external_zlib" remote="tos" />
+  <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="tos" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="tos" />
