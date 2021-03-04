@@ -66,7 +66,6 @@
   <project path="manifest" name="manifest" remote="tos" />
   <project path="vendor/google/gms" name="SonalSingh18/vendor_google_gms" remote="gitlab" revision="eleven" />
   <project path="vendor/extras" name="vendor_extras" remote="tos" />
-  <project path="vendor/support" name="vendor_support" remote="tos" />
   <project path="vendor/titanium" name="vendor_titanium" remote="tos" />
 
   <!-- Hardware repos -->
