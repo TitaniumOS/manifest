@@ -1,4 +1,4 @@
-![TitaniumOS](https://github.com/TitaniumOS/manifest/raw/eleven/snippets/TitaniumOS-banner.png)
+![TitaniumOS](https://github.com/TitaniumOS/manifest/blob/eleven/TitaniumOS-banner.png)
 
 # TitaniumOS #
 
@@ -66,5 +66,15 @@ If any apps you would like to get it removed in gapps package, just add
      REMOVE_GAPPS_PACKAGES += \
               Chrome \
               CalculatorGoogle
+
+Choosing between OnePlus Launcher and TiOS Launcher in build:
+------------------------------------------------------------
+• To include OnePlus Launcher in your builds:
+   - Remove vendor/extras.
+   - Clone repo vendor_extras of branch eleven-OPLauncher.
+
+• For TiOS Launcher:
+   - No need of doing anything as it is present in source by default.
+
 ## Report build issues
 - You can reach us via [Telegram](https://t.me/TitaniumOS_Chat)
